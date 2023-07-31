@@ -1,0 +1,1381 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: greenyellow;
+    color: black;
+}
+
+#wallpaper {
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(1, 6, 36);
+}
+
+
+/* start music nav coding page */
+#music-nav {
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255,0.1);    
+    padding: 10px;
+}
+
+#music-table {
+    width: 70%;
+    border-style: solid;
+    border-color: red;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#music-heading {
+    font-size: 33px;
+    font-family: verdana;
+    color: white;
+    margin-left: 10px;
+}
+
+
+#music-ul {
+    list-style: none;   
+    text-align: center;
+    
+}
+
+#music-li {
+    display: inline-block;
+    border-style: none;
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#music-li:hover {
+    background-color: rgb(12, 208, 81);
+    width: 90px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+
+#anchor-menu {
+    text-decoration: none;
+    color: white;
+}
+
+#button-sign {
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bold;
+    background-color: inherit;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    border-color: white;
+    border-radius: 20px;
+    float: right;
+}
+
+#button-sign:hover {
+    background-color: chartreuse;
+    transition: 1s;
+}
+
+#anchor-music {
+    text-decoration: none;
+    color: white;
+}
+/* end music nav coding page */
+
+
+/* start music header coding page */
+#music-header {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+#header-table {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+}
+
+.search-one {
+    float: right;
+    width: 300px;
+    height: 37px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: inherit;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.search-two {
+    float: left;
+    margin-left: 10px;
+    width: 90px;
+    height: 37px;
+    border-style: none;
+    background-color: aqua;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    color: rgb(104, 100, 100);
+    cursor: pointer;
+}
+
+/* end music header coding page */
+
+
+/* start music heading coding page */
+
+#music-div {
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+    padding-left: 20px;
+    
+}
+
+#heading-table {
+    width: 40%;
+    float: left;
+}
+
+.head-text {
+    font-size: 30px;
+    font-family: century gothic;
+    color: white;
+    margin-left: 10px;
+}
+
+
+/* end music heading coding page */
+
+
+
+/* start music section coding page */
+    #music-section {
+        margin-top: 50px;  
+    }
+
+.music-box {
+    width: 300px;
+    height: 390px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    float: left;
+    margin-left: 29px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 7px  white;
+    margin-bottom: 65px;
+}
+
+.music-box:hover{
+    background-color: white;
+    transition: 0.5s;
+   
+}
+
+.banner {
+    border-radius: 25px 25px 0px 0px ;
+    width: 100%;
+}
+
+
+#audio-file {
+    width: 90%;
+    margin: 14px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#singer-section {
+   width: 100%;
+   float: left;
+   margin-top: 20px;
+}
+
+#singer-head {
+    width: 90%;
+    height: 60px;
+    border-style: none;
+    border-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.singer-head-text {
+    font-size: 39px;
+    font-family: calibri;
+    color: white;
+    
+}
+
+#singer-box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: white;
+    float: left;
+    margin-left: 145px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+}
+
+#sing-pic {
+    width: 100%;
+    border-radius:200px ;
+} 
+
+#singer-box :hover {
+    box-shadow: 0px 0px 45px rgb(10, 222, 25);
+}
+
+
+/* end music section coding page */
+
+
+
+/* start music footer coding page */
+
+#footer-about {
+    width: 80%;
+    border: none;
+    border-style: solid;
+    border-color: rgba(255, 255, 255,0.2);
+    border-width: 1px;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 15px;
+    
+}
+
+#table-footer {
+    width: 100%;
+    padding: 10px;
+}
+
+#about-head {
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin: 12px;
+}
+
+#about-para {
+    text-align: justify;
+    margin: 12px;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: bold;
+    color: lightgray;
+}
+
+
+#subcription-button {
+    width: 40%;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgba(255, 255, 255.0,0.2);
+    float: left;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.buy-head {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    font-family: calibri;
+    margin-top: 10px;
+}
+
+.buy-hfour {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#premiuem-btn {
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: red;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#premiuem-btn:hover {
+    background-color: greenyellow;
+    box-shadow: 0px 0px 20px white;
+    transition: 1s;
+}
+
+
+#footer-section {
+    width: 100%;
+    
+    margin-top: 40px;
+    float: left;
+    border-style: solid;
+}
+
+#footer-ul {
+    list-style: none;
+    text-align: center;
+}
+
+#footer-li {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    
+    padding-top: 10px;
+    font-size: 19px;
+    font-family: calibri;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#footer-li:hover {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px aqua;
+    background-color: darkorange;
+    transition: 0.5s;
+}
+
+
+#logo {
+    width: 50px;
+    margin: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 100px;
+    border-color: white;
+}
+
+#logo:hover {
+    box-shadow: 0px 0px 40px rgb(195, 25, 25);
+}
+
+#end-head {
+    color: white;
+    text-align: center;
+    font-family: calibri;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+/* end music footer coding page */
+
+
+
+
+
+
+
+
+
+
+/* start video heading coding */
+
+#video-div {
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+    padding-left: 20px;
+    margin-bottom: 50px;
+
+}
+
+#video-heading-table {
+    float: left;
+    width: 40%;
+}
+
+.video-text {
+    font-size: 30px;
+    font-family: century gothic;
+    color: white;
+    margin-left: 10px;
+}
+
+/* end video heading coding */
+
+
+/* start video section coding page */
+
+
+#video-box {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width:  1px;
+    border-color: white;
+    float: left;
+    margin-left: 37px;
+    margin-bottom: 65px;
+    border-radius: 30px;
+}
+
+#video-box:hover {
+    box-shadow: 0px 0px  17px white;
+    transition: 0.3s;
+}
+
+#youtube-vid {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+/* end video section coding page */
+
+
+
+/* start youtube video page section coding */
+
+#yt-head-section {
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    
+}
+
+#yt-tab-section {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.text-head {
+    color: white;
+    font-size: 35px;
+    font-family: calibri;
+    margin-left: 10px;
+}
+
+#youtube-page {
+    width: 100%;
+    
+}
+
+#youtube-page :hover {
+    box-shadow: 0px 0px 20px aqua;
+}
+
+.youtube-box {
+    width: 40%;
+    height: 200px;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    float: left;
+    background-color: inherit;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 45px;
+    border-radius: 19px;
+}
+
+
+#yt-pic {
+    width: 50%;
+    height: 100%;
+    border-radius: 19px 0px 0px 19px;
+    
+}
+
+
+#heading-yt {
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 30px;
+    margin-top: 75px;
+    font-family: calibri;
+    display: block;
+    width: 100px;
+    
+}
+
+#heading-yt:hover {
+    border-radius: 20px;
+    background-color: greenyellow;
+    box-shadow:0px 0px 10px rgb(209, 226, 18) ;
+}
+/* end youtube video page section coding */
+
+
+
+
+
+
+
+
+
+/* start sign up page section coding */
+
+#sign-section {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+
+#sign-page {
+    width: 30%;
+    float: left;
+    border: none;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 35px;
+    background-color: rgb(255, 255, 255,0.3);
+}
+
+#sign-page:hover {
+    box-shadow: 0px 0px  10px greenyellow;
+    background-color: rgb(255, 255, 255,0.2)
+}
+
+.sign-heading {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: verdana;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sign-box {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    padding-left: 10px;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: calibri;
+    
+    
+}
+
+#sign-box:focus {
+    background-color: greenyellow;
+    
+}
+
+#sign-btn {
+    width: 20%;
+    height: 40px;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    float: right;
+    background-color: rgb(4, 235, 51);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#sign-btn:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+#paragraph {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: calibri;
+}
+
+/* end sign up page section coding */
+
+
+
+/* start contact page sign coding */
+#contact-page-box {
+    width: 100%;
+    float: left;
+    
+}
+
+#contact-box {
+    width: 70%;
+    float: left;
+    border-style: none;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.one-head {
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.two-head {
+    text-align: center;
+    color: rgb(245, 239, 239);
+    font-size: 16px;
+    font-family: calibri;
+}
+
+
+#contact-page-box-two {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#contact-box-three {
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: none;
+}
+
+.message-box {
+    width: 40%;
+    height: 450px;
+    border-style: none;
+    float: left;    
+}
+
+.map-box {
+    width: 60%;
+    height: 450px;
+    border-style: none;
+    float: right;
+}
+
+#icon-chat {
+    margin-left: 10px;
+    float: left;
+}
+
+#message-head {
+
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-family: calibri;
+    font-size: 33px;
+}
+
+#chat-form {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 22px;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: ghostwhite;
+}
+
+#chat-form:focus {
+    background-color: yellow;
+    box-shadow: 0px 0px 15px rgb(9, 232, 17);
+}
+
+#chat-message {
+    width: 70%;
+    height: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 22px;
+    padding-left: 15px;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: ghostwhite;
+}
+
+#chat-message:focus {
+    background-color: yellow;
+    box-shadow: 0px 0px 15px rgb(9, 232, 17);
+}
+
+#send-box {
+    width: 20%;
+    height: 35px;
+    float: right;
+    margin-right: 15%;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: aqua;
+    color: white;
+}
+
+#send-box:hover {
+    background-color: white;
+    color: rgb(0, 255, 64);
+    box-shadow: 0px 0px 15px aqua;
+    transition: 0.5s;
+}
+/* end contact page sign coding */
+
+
+
+
+
+
+
+
+/* start user LOGIN page secton coding*/
+#login-pg-section {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#login-box-section {
+    width: 30%;
+    float: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: white;
+    border-radius: 40px 10px 40px 10px;
+}
+
+#login-box-section:hover {
+    box-shadow: 0px 0px 30px rgb(154, 40, 154);
+    background-color: ghostwhite;
+}
+
+#login-head-one {
+    color: rgba(210, 8, 163, 0.842);
+    font-size: 37px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: calibri;
+    margin-bottom: 20px;
+}
+
+.login-from {
+    width: 70%;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    text-align: center;
+    background-color: rgb(230, 184, 230);
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url(user.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.login-password {
+    width: 70%;
+    height: 40px;
+    border-radius: 40px;
+    border-style: none;
+    text-align: center;
+    background-color: rgb(230, 184, 230);
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-image: url(password.png);
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.checkbox {
+    margin-left: 15%;
+}
+
+.login-btn {
+    width: 30%;
+    height: 35px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: none;
+    background-color: rgb(225, 13, 225);
+    border-radius: 40px;
+    font-size: 23px;
+    font-family: calibri;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+#login-paragraph {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(91, 87, 87);
+    font-size: 20px;
+    font-family: calibri;
+}
+/* end user LOGIN page secton coding*/
+
+
+
+
+
+
+
+
+/*start subcription  coding page */
+#user-icon-pg {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#user-icon-pg:hover {
+    box-shadow: 0px 0px 15px ghostwhite;
+    transition: 0.7s;
+}
+
+#user-pic {
+    width: 100%;
+    border-radius: 100%;
+}
+/*end subcription  coding page */
+
+
+
+/*start subcription section  coding page */
+#subcription-heading {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+#subcription-header {
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+.header-one {
+    width: 30%;
+    float: left;
+    margin-left: 33px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.header-one:hover {
+    box-shadow: 0px 0px 20px white;
+}
+
+#one {
+    background-color: midnightblue;
+}
+
+#two {
+    background-color: red;
+}
+
+#three {
+    background-color: rgba(0, 139, 139, 0.624);
+}
+
+#price-btn {
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+
+#second-head-one {
+    font-size: 28px;
+    text-align: center;
+    font-family:  calibri;
+    font-weight: bold;
+    color: midnightblue;
+    padding-top: 35px;
+}
+
+#second-head-two {
+    font-size: 28px;
+    text-align: center;
+    font-family:  calibri;
+    font-weight: bold;
+    color: red;
+    padding-top: 35px;
+}
+
+#second-head-three {
+    font-size: 28px;
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color:  rgba(0, 139, 139, 0.624);
+    padding-top: 35px;
+}
+
+#third-one {
+    font-size: 47px;
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color:midnightblue ;
+    padding-bottom: 30px;
+}
+
+#third-two {
+    font-size: 47px;
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: red ;
+    padding-bottom: 30px;
+}
+
+#third-three {
+    font-size: 47px;
+    text-align: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: rgba(0, 139, 139, 0.624) ;
+    padding-bottom: 30px;
+}
+
+.p-one {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 22px;
+    color: white;
+    font-family: calibri;
+}
+
+#btn {
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+    border-radius: 30px;
+    border-style: none;
+}
+
+#btn:hover {
+    background-color: greenyellow;
+    transition: 0.8s;
+    box-shadow: 0px 0px 15px white;
+}
+
+.buy-link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calibri;
+}
+
+#p-two {
+    text-align: center;
+    color: rgb(204, 200, 200);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: calibri;
+}
+/*end subcription section  coding page */
+
+
+/* start payment page coding */
+#payment-section {
+    width: 100%;
+    float: left;
+}
+
+#payment-box {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+#pay-head {
+    color: white;
+    float: left;
+    font-size: 35px;
+    font-family: calibri;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.payment-form {
+    width: 30%;
+    float: left;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255,0.3);
+}
+
+#pay-box {
+    width: 80%;
+    height: 40px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: calibri;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#pay-box:focus {
+    box-shadow: 0px 0px 20px aqua;
+}
+
+#pay-btn {
+    width: 30%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    border-style: none;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: cyan;
+}
+
+#pay-btn:hover {
+    background-color: rgb(143, 235, 6);
+    transition: 0.8s;
+    border-radius: 10px;
+}
+
+#link-btn {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: bold;
+}
+/* end payment page coding */
+
+
+
+
+
+
+
+
+/* start singer box coding */
+#singer-icon-box {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 100%;
+}
+
+#singer-icon-box:hover {
+    box-shadow: 0px 0px 25px green;
+}
+
+#singer-pic {
+    width: 100%;
+    border-radius: 100%;
+}
+
+#singer-name {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: calibri;
+}
+/* end singer box coding */
+
+
+/*start music palylist coding*/
+#music-playlist {
+    width: 100%;
+}
+
+#music-paly-box {
+    width: 300px;
+    height: 390px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    float: left;
+    margin-left: 29px;
+    border-radius: 25px;
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
+
+#music-paly-box:hover {
+    box-shadow: 0px 0px 20px white;
+}
+
+#song-pic {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#voice {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+/* end music playlist coding*/
+
+
+/* start btn section coding */
+#btn-menu {
+    width: 100%;
+    float: left;
+}
+
+.btn-menu-icon {
+    width: 70%;
+    float: left;
+   
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#left {
+    width: 7%;
+    float: left;
+    border-radius: 100%;
+}
+
+#left:hover {
+    box-shadow: 0px 0px 20px aqua;
+    transition: 0.5s;
+}
+
+#right {
+    width: 7%;
+    float: right;
+    border-radius: 100%;
+}
+
+#right:hover {
+    box-shadow: 0px 0px 20px aqua;
+    transition: 0.5s;
+}
+/* end btn section coding */
+
+
+
+
+
+
+
+
+/*start video playlist coding page */
+#video-banner {
+    width: 100%;
+    border-radius: 30px;
+}
+/*end video playlist coding page */
+
+
+/* start video header coding */
+#video-header {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.video-heading {
+    width: 50%;
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#text-video-head {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: calibri;
+}
+/*end video header coding*/
+
+
+/* start video box section coding*/
+#video-palylist {
+    width: 100%;
+    float: left;
+}
+
+.link-vid {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width:  1px;
+    border-color: white;
+    float: left;
+    margin-left: 37px;
+    margin-bottom: 65px;
+    border-radius: 30px;
+}
+
+.link-vid:hover {
+    box-shadow: 0px 0px 23px aqua;
+}
+
+#yt-vid-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#video-btn {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-pic {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#forward {
+ float: left;
+ width: 10%;
+ border-radius: 100px;
+ margin-left: 10px;
+}
+
+#forward:hover {
+    box-shadow: 0px 0px 20px white;
+    transition: 0.7s;
+}
+
+#backward {
+ float: right;
+ width: 10%;
+ border-radius: 100px;
+ margin-right: 10px;
+}
+
+#backward:hover {
+    box-shadow: 0px 0px 20px white;
+    transition: 0.7s;
+}
+/* emd video box section coding */
